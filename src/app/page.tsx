@@ -68,7 +68,6 @@ export default function Home() {
             ]}
             className="bg-blue-100"
             cardNameClassName="text-blue-900"
-            cardPriceClassName="text-blue-900"
           />
         </div>
       </div>
