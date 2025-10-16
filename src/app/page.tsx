@@ -35,7 +35,7 @@ export default function Home() {
             title="Welcome to Dark Blue Blooms"
             description="Experience the elegance of unique dark blue flowers."
             imageSrc={assetMap.find(a => a.id === 'hero-image').url}
-            buttons={[{ text: "Shop Now", href: "#product" }, { text: "Contact Us", href: "#contact" }]}
+            buttons={[{ text: "Shop Now", href: "#products" }, { text: "Contact Us", href: "#contact" }]}
             imagePosition="left"
             className="bg-blue-100"
             titleClassName="text-blue-900"
@@ -47,8 +47,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6">
           <SplitAbout
             bulletPoints={[
-              { title: "Quality", description: "Our flowers are carefully selected for their deep blue hues.", icon: "Award" },
-              { title: "Sustainability", description: "Grown with care and commitment to the environment.", icon: "Leaf" }
+              { title: "Quality", description: "Our flowers are carefully selected for their deep blue hues.", icon: Award },
+              { title: "Sustainability", description: "Grown with care and commitment to the environment.", icon: Leaf }
             ]}
             imageSrc={assetMap.find(a => a.id === 'hero-image').url}
             className="bg-blue-100"
@@ -105,7 +105,7 @@ export default function Home() {
           <FooterBase
             columns={[
               { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Contact", href: "#contact" }] },
-              { title: "Shop", items: [{ label: "All Products", href: "#product" }] },
+              { title: "Shop", items: [{ label: "All Products", href: "#products" }] },
               { title: "Help", items: [{ label: "FAQ", href: "#faq" }] }
             ]}
             className="bg-blue-100"
