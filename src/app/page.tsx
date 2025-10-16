@@ -7,6 +7,7 @@ import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
+import { Award, Leaf } from 'lucide-react';
 
 const assetMap: { id: string; url: string; alt?: string }[] = [
   { "id": "hero-image", "url": "https://images.pexels.com/photos/5501192/pexels-photo-5501192.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", "alt": "Dark, artistic floral arrangement with eryngium, carnations, and berries. Perfect for winter decor." },
